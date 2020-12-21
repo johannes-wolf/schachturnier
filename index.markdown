@@ -8,9 +8,12 @@ layout: home
 ![Schachturnier Banner](img/banner.png)
 
 # Regeln
-* Spiele werden auf [lichess.org](https://lichess.org) ausgetragen
-* Jeder Spieler/jede Spielerin spielt ein „Best-Of-Three“ Spiel gegen jeden Teilnehmer/jede Teilnehmerin
-* Spieldauer is 10+0 (10 Minuten, kein increment)
+* Spiele werden auf [lichess.org](https://lichess.org) ausgetragen.
+* Jeder Spieler/jede Spielerin spielt ein „Best-Of-Three“ Satz gegen jeden Teilnehmer/jede Teilnehmerin.
+* Die Spieldauer beträgt 10+0 (10 Minuten, 0 Sekunden inkrement), abwechselnd Schwarz & Weiß.
+* Nach dem Spiel: Spielergebnis und Link zum Spiel (Replay) im Telegramkanal posten.
+* Ein Sieg zählt einen Punkt; der Spieler oder die Spielerin mit den meisten Punkten gewinnt das Turnier.
+* Endet das Turnier unentschieden, spielen die Gewinner jeweils ein „Best-Of-Three“ Satz Finale.
 
 # Spielplan
 
