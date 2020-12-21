@@ -1,0 +1,5 @@
+# - a: PlayerA         -- Player A name
+#   b: PlayerB         -- Player B name
+#  games:
+#    - id: lichessida  -- Lichess game id
+#      win: a          -- Player that won the match
