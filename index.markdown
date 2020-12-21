@@ -5,6 +5,8 @@
 layout: home
 ---
 
+![Schachturnier Banner](img/banner.png)
+
 # Regeln
 * Spiele werden auf [lichess.org](https://lichess.org) ausgetragen
 * Jeder Spieler/jede Spielerin spielt ein „Best-Of-Three“ Spiel gegen jeden Teilnehmer/jede Teilnehmerin
