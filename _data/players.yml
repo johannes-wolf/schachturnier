@@ -1,3 +1,6 @@
+- name: Andreas
+  lichess: Spieltsehrschlecht
+
 - name: Joseph
   lichess: josephbirkner
 
@@ -5,7 +8,7 @@
   lichess: johannesd
 
 - name: Laura
-  lichess:
+  lichess: l-laura
 
 - name: Matthias
   lichess: SpeedMatze
@@ -15,6 +18,3 @@
 
 - name: Valentin
   lichess: Syrinxus
-
-- name: Andreas
-  lichess: Spieltsehrschlecht
