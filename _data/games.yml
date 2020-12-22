@@ -3,3 +3,27 @@
 #  games:
 #    - id: lichessida  -- Lichess game id
 #      win: a          -- Player that won the match
+
+- a: Andreas
+  b: Johannes
+  games:
+  - id: ifikl7G4
+    win: b
+
+- a: Joseph
+  b: Johannes
+  games:
+  - id: 18pi1lFi
+    win: b
+  - id: B5Yuts48
+    win: a
+  - id: 4ztX0LoZjUCo
+    win: b
+
+- a: Paul
+  b: Johannes
+  games:
+  - id: iN6A7LZb
+    win: b
+  - id: 9GUHs0YRNphG
+    win: b
