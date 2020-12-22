@@ -21,6 +21,14 @@ layout: home
 ## [{{ player.name }}](https://lichess.org/@/{{ player.lichess }})
 
 <table class="game-result">
+    {% assign total_score = 0 %}
+
+    <tr>
+        <th>Gegner</th>
+        <th>Punkte</th>
+        <th>Spiele</th>
+    </tr>
+
     {% for opponent in site.data.players %}
     {% unless opponent.name == player.name %}
     <tr>
@@ -53,6 +61,7 @@ layout: home
             
             {% if round %}
             {{ score }}
+            {% assign total_score = total_score | plus: score %}
             {% else %}
             -
             {% endif %}
@@ -69,5 +78,10 @@ layout: home
     </tr>
     {% endunless %}
     {% endfor %}
+    
+    <tr>
+        <th>Summe</th>
+        <th>{{ total_score }}</th>
+    </tr>
 </table>
 {% endfor %}
