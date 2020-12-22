@@ -31,11 +31,12 @@ layout: home
             {% if g.a == player.name and g.b == opponent.name %}
                 {% assign is-player = "a" %}
                 {% assign round = g %}
-                {% break%}
-            {% else if g.b == player.name and g.a == opponent.name %}
+                {% break %}
+            {% endif %}
+            {% if g.b == player.name and g.a == opponent.name %}
                 {% assign is-player = "b" %}
                 {% assign round = g %}
-                {% break%}
+                {% break %}
             {% endif %}
         {% endfor %}
     
