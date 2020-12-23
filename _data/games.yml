@@ -33,3 +33,17 @@
   games:
   - id: cK9SYCF9
     win: a
+
+- a: Matthias
+  b: Johannes
+  games:
+  - id: JcjaP9WF
+    win: b
+  - id: DggGVKUsHwym
+    win: b
+
+- a: Matthias
+  b: Joseph
+  games:
+  - id: nz18kR0n
+    win: a
