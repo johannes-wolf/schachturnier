@@ -27,3 +27,9 @@
     win: b
   - id: 9GUHs0YRNphG
     win: b
+
+- a: Andreas
+  b: Joseph
+  games:
+  - id: cK9SYCF9
+    win: a
