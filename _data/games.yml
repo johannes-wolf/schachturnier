@@ -28,6 +28,14 @@
   - id: 9GUHs0YRNphG
     win: b
 
+- a: Paul
+  b: Valentin
+  games:
+  - id: fAeZqbOR
+    win: a
+  - id: vLUeeiZM
+    win: a
+
 - a: Andreas
   b: Joseph
   games:
