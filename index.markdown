@@ -18,7 +18,7 @@ layout: home
 # Spielplan
 
 {% for player in site.data.players %}
-## [{{ player.name }}](https://lichess.org/@/{{ player.lichess }})
+## [{{ player.name }}](https://lichess.org/@/{{ player.lichess }}) {% if player.invalid %} - ausgeschieden {% endif %}
 
 <table class="game-result">
     {% assign total_score = 0 %}
@@ -30,7 +30,7 @@ layout: home
     </tr>
 
     {% for opponent in site.data.players %}
-    {% unless opponent.name == player.name %}
+    {% unless opponent.name == player.name or opponent.invalid %}
     <tr>
         {% assign round = false %}
 
